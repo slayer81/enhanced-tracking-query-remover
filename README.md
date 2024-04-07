@@ -2,7 +2,7 @@
 
 This is a fork of the great work by [Luis Marroquin's](https://github.com/LuisEnMarroquin) [Tracking Query Remover](https://github.com/LuisEnMarroquin/tracking-query-remover)
 
-A Chrome and Firefox extension that removes trackers from query for a simpler and cleaner URL
+A Firefox extension that removes trackers from query for a simpler and cleaner URL
 
 ![image-not-found](readme.jpg)
 
@@ -26,8 +26,7 @@ This extension is not designed to hide from the website you are visiting with th
 
 You can install the extension/add-on for the following browsers:
 
-* [Google Chrome](https://chrome.google.com/webstore/detail/tracking-query-remover/cdhgohknmmkonojeajegbnkbmfkkhobb)
-* [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/tracking-query-remover/)
+* [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/enhanced-tracking-query-remover/)
 
 ## Tests
 
@@ -40,8 +39,6 @@ node content.js
 Or you can test that it changes the url visiting this `https://blog.marroquin.dev/tests/?fbclid=FBFBFB&couponCode=COCOCO&gclid=GCGCGC`
 
 In order to test this extension:
-
-For Chrome at `chrome://extensions`, enabled **Developer mode** and clicked **Load unpacked**
 
 For Firefox at `about:debugging#/runtime/this-firefox` clicked **Load Temporary Add-on…**
 
@@ -56,7 +53,3 @@ Some links that may help you if you are also new to building extensions
 The icon was created with **Gimp** on a 16x16 pixels square with size 1 Pencil, you can edit by openning [icon.xcf](icon.xcf)
 
 ## Package extension
-
-For Chrome at `chrome://extensions` click **Pack extension** and it will generate your **Packed** (`.crx`) and **Key** (`.pem`) files.
-
-As a reminder for me, I saved my key at **G2** on `KEYS` folder
