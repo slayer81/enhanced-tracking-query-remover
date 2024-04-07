@@ -32,7 +32,7 @@ try {
   let extsInURL = []
   let locSearch = window.location.search
   const allParams = new URLSearchParams(window.location.search)
-  const exts = [ 'gclid', 'fbclid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content' ]
+  const exts = [ 'gclid', 'fbclid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'trackingId', 'trk', 'trkEmail', 'lipi' ]
 
   exts.forEach(ext => {
     let isAtURL = allParams.has(ext)
