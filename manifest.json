@@ -2,6 +2,11 @@
   "manifest_version": 2,
   "name": "Enhanced Tracking Query Remover",
   "description": "Removes useless tracking information from url",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "scott@entice.ca"
+    }
+  },
   "version": "1.0.0",
   "content_scripts": [
     {
@@ -16,3 +21,6 @@
     "128": "icon128.png"
   }
 }
+
+
+
